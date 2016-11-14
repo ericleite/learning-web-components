@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 30%;
+  min-width: 300px;
+  height: 100vh;
+  padding: 40px;
+  background-color: #f7f7f8;
+  border-left: 1px solid #efeff0;
+}
+
+.sidebar img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sidebar .header {
+  position: relative;
+}
+
+.sidebar .header .headshot {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 0.5em solid #efeff0;
+  box-sizing: content-box;
+}
+
+.sidebar .header .label {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1em;
+  text-align: center;
+}
+
+.sidebar .bio {
+  margin: 2em 0;
+}
