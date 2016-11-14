@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  background-color: #f7f7f8;
+}
+
+main {
+  display: table;
+  margin: 0 auto;
+  width: 50%;
+}
+
+section {
+  margin: 40px 0;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+}
+
+section h3 {
+  margin: 2em 0 1em;
+}
+
+section h3:first-child {
+  margin: 0 0 1em;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.5em 1em;
+  color: Turquoise;
+  background-color: transparent;
+  border: 0.0625em solid Turquoise;
+  border-radius: 0.25em;
+  cursor: pointer;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: Turquoise;
+  border: 0.0625em solid Turquoise;
+  text-decoration: none;
+}
+
+.button:focus, .button:active {
+  color: #fff;
+  background-color: Turquoise;
+  border: 0.0625em solid Turquoise;
+  text-decoration: none;
+  box-shadow: inset 0 0 0.6em rgba(0,0,0,0.1);
+  outline: none;
+}
+
+.button + .button {
+  margin-left: 1em;
+}
+
+.button.button-sm {
+  font-size: 0.67em;
+}
+
+.button.button-md {
+  font-size: 1em;
+}
+
+.button.button-lg {
+  font-size: 1.33em;
+}
