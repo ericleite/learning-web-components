@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  background-color: #f7f7f8;
+}
+
+main {
+  display: table;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 50%;
+}
+
+section {
+  margin: 40px 0;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+}
+
+.section-title {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 1.5em;
+  font-size: 16px;
+}
+
+.input-group input {
+  display: block;
+  width: 100%;
+  padding: 0.25em 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  color: #d0d0d0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1em;
+  transition: all 200ms ease;
+}
+
+.input-group input:focus {
+  border-bottom-color: #1E90FF;
+  color: #333;
+  outline: none;
+}
+
+.input-group label {
+  color: #777;
+  font-size: 0.75em;
+}
+
+.submit-group button {
+  width: 100%;
+  padding: 0.5em 1em;
+  background-color: transparent;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1em;
+  border: 1px solid #1E90FF;
+  border-radius: 0.125em;
+  color: #1E90FF;
+  cursor: pointer;
+  text-align: center;
+  transition: all 200ms ease;
+}
+
+.submit-group {
+  margin-top: 2em;
+}
+
+.submit-group button:hover {
+  background-color: #1E90FF;
+  color: #fff;
+}
+
+.submit-group button:focus {
+  outline: none;
+}
