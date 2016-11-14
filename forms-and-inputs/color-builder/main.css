@@ -1,0 +1,17 @@
+@import '../base.css';
+
+.input-group.-compact {
+  margin-bottom: 1em;
+}
+
+.input-group label[for=red] {
+  color: red;
+}
+
+.input-group label[for=green] {
+  color: green;
+}
+
+.input-group label[for=blue] {
+  color: blue;
+}
