@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scheduling Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <h1 class="section-title">Scheduling Form</h1>
+    <section>
+      <form>
+        <div class="input-group">
+          <div class="input-span -size-40">
+            <label for="date">Date</label>
+            <input id="date" type="text" name="date" value="" />
+          </div>
+          <div class="input-span -size-40">
+            <label for="time">Time</label>
+            <input id="time" type="text" name="time" value="" />
+          </div>
+          <div class="input-span -size-20">
+            <div class="input-group">
+              <select name="timezone">
+                <option value="est">EST</option>
+                <option value="cst">CST</option>
+                <option value="mst">MST</option>
+                <option value="pst">PST</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" value="" ></textarea>
+        </div>
+        <div class="input-group">
+          <label for="phone">Contact Number</label>
+          <input id="phone" type="text" name="phone" value="" />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input id="email" type="text" name="email" value="" />
+        </div>
+        <div class="submit-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
