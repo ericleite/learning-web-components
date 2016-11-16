@@ -118,9 +118,14 @@ fieldset > h3 {
   padding-right: 1em;
 }
 
-.input-span:last-child {
+.input-span:not(.-size-auto):last-child {
   padding-left: 1em;
   padding-right: 0;
+}
+
+.input-span.-size-auto {
+  width: auto;
+  display: inline-block;
 }
 
 .input-span.-size-20 {

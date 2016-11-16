@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Credit / Debit Card Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <h1 class="section-title">Credit / Debit Card Form</h1>
+    <section>
+      <form>
+        <div class="input-group">
+          <div class="input-span -size-50">
+            <label for="first-name">First Name</label>
+            <input id="first-name" type="text" name="first-name" value="" />
+          </div>
+          <div class="input-span -size-50">
+            <label for="last-name">Last Name</label>
+            <input id="last-name" type="text" name="last-name" value="" />
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input-span -size-70">
+            <label for="card-number">Card Number</label>
+            <input id="card-number" type="text" name="card-number" value="" maxlength="19" />
+          </div>
+          <div class="input-span -size-30">
+            <label for="csv-code">CSV Code</label>
+            <input id="csv-code" type="text" name="csv-code" value="" maxlength="6" />
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input-span -size-auto">
+            <label for="expiration-month">Month</label>
+            <select name="expiration-month" id="expiration-month">
+              <option value="">01</option>
+              <option value="">02</option>
+              <option value="">03</option>
+              <option value="">04</option>
+              <option value="">05</option>
+              <option value="">06</option>
+              <option value="">07</option>
+              <option value="">08</option>
+              <option value="">09</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+            </select>
+          </div>
+          <div class="input-span -size-auto">
+            <label for="expiration-year">Year</label>
+            <select name="expiration-year" id="expiration-year">
+              <option value="">2016</option>
+              <option value="">2017</option>
+              <option value="">2018</option>
+              <option value="">2019</option>
+              <option value="">2020</option>
+              <option value="">2021</option>
+              <option value="">2022</option>
+              <option value="">2023</option>
+              <option value="">2024</option>
+              <option value="">2025</option>
+              <option value="">2026</option>
+              <option value="">2027</option>
+              <option value="">2028</option>
+              <option value="">2029</option>
+              <option value="">2030</option>
+              <option value="">2031</option>
+            </select>
+          </div>
+        </div>
+        <div class="submit-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
